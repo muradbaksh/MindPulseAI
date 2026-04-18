@@ -35,7 +35,7 @@ DEBUG = env.bool('DEBUG', default=False)
 
 ALLOWED_HOSTS = ["*"]
 
-CSRF_TRUSTED_ORIGINS = ['https://mindpulseai.onrender.com','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://mindpulseai.onrender.com','https://*.127.0.0.1','https://mindpulseai-2a4r.onrender.com']
 
 
 # Application definition
